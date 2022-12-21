@@ -1,7 +1,8 @@
 # Elite-101 Prework
+## Code2College Elite 101 Project
 
-Goal: To Create a Chatbot
-Why: Pre-requisuite for Elite 101 
-Language: Python
-Due Date: Jan 9th 
+###### Main goal: Create a chatbot 
+
+Language: *Python*
+Due Date: ***Jan 9th***
 
