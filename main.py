@@ -17,7 +17,7 @@ def main_question():
     else:
         main_question()
 
-# Main topics and subtopics
+# Main topics and subtopics		
 topics = {
     "entertainment": ["soccer", "basketball", "football", "movies", "anime"],
     "school": ["tuition", "grades", "studying", "stem", "humanities", "admission"],
@@ -37,6 +37,7 @@ def topic_route():
         print("Sorry, I don't understand your input. Please choose a topic from the list.")
         topic_route()
 
+
 def sub_topic_route(main_topic):
     print("Here are the subtopics for " + main_topic + ": " + str(topics[main_topic]))
     sub_topic = input("Which subtopic would you like to discuss? ")
@@ -47,7 +48,14 @@ def sub_topic_route(main_topic):
         sub_topic_route(main_topic)
 
 # Main loop that controls the chatbot
+
 want_to_exit = ''
 while want_to_exit != "Y": 
     main_question()
     want_to_exit = input("Do you want to exit the chatbot? (Y/N)")
+if want_to_exit == "Y":
+	print("It was nice talking to you! Have a great day! Bye!")
+else:
+	main_question()
+	
+
